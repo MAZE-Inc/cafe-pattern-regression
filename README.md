@@ -110,5 +110,14 @@ $ sudo apt-get install python3-pip
 $ sudo pip3 install -r requirements.txt
 ```
 
+# 실시간 추론 4개의 모델
+## 좌석 점유율 예측 모델
+
+## 고객층 예측 모델
+
+## 행동 패턴 예측 모델
+
+## 메뉴/매출 예측 모델
+
 
 
