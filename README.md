@@ -134,8 +134,9 @@ $ sudo pip3 install -r requirements.txt
 # 카페 현황 예측 4개의 모델
 ## 모델 설명
 자사 모델은 Boosting 모델을 기반으로 만들었습니다. Boosting모델은 여러 개의 약한 Decision Tree를 조합해서 사용하는 Ensemble 기법 중 하나입니다. 즉, 약한 예측 모형들의 학습 에러에 가중치를 두고, 순차적으로 다음 학습 모델에 반영하여 강한 예측모형을 만드는 것입니다.
-모델 개념도는 아래의 그림과 같습니다.
-<img width="343" alt="스크린샷 2023-08-31 오후 10 27 23" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/cb163475-2b51-471e-a2f1-2586d10d7b47">   
+모델 개념도는 아래의 그림과 같습니다. 
+<br />
+<img width="343" alt="스크린샷 2023-08-31 오후 10 27 23" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/cb163475-2b51-471e-a2f1-2586d10d7b47"> <br />  
 y=m1(x)+error(x) 모델 m1이 x에 대해서 제대로 예측할 확률이 y라고 하고, 이 정확도를 높이려면
 error(x)를 작게 하는 모델을 적용하면 되는데, error(x) = m2(x) + error2(x)라고 볼 수 있습니다. 마찬가지로 error(x)를 작게 하려면 error2(x)를 작게 하면 되는데, 그러기 위해서는 여기에 다른 모델을 적용하면 됩니다. 즉 error2(x) = m3(x)+error3(x)가 되고, 이를 식으로 합치면
 y= m1(x)+m2(x)+m3(x)+error3(x)
