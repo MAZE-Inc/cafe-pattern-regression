@@ -118,6 +118,7 @@ $ sudo pip3 install -r requirements.txt
 # date: 년도, 월, 일, 시, 분, 초 순서
 ./run.bin --model act --date --2023-11-11-11-11-11
 ```
+- 아래 모든 모델은 특정 카페 A에 대한 추론입니다.
 ### 메뉴 추론
 <img width="450" alt="스크린샷 2023-08-31 오후 10 09 15" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/2df2fa63-f1b2-4e26-bfe5-26462391e90d">
 
@@ -128,10 +129,7 @@ $ sudo pip3 install -r requirements.txt
 <img width="450" alt="스크린샷 2023-08-31 오후 10 07 36" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/ddbd43dc-9c34-482f-b976-8be7ec338efa">
 
 ### 행동 추론
-<img width="450" alt="스크린샷 2023-08-31 오후 10 07 13" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/c6aeb3fa-0c4d-4c8d-8d49-ec691da2b56b">
-
-
-위에 모든 모델은 특정 카페 A에 대한 추론입니다.
+<img width="450" alt="스크린샷 2023-08-31 오후 10 07 13" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/c6aeb3fa-0c4d-4c8d-8d49-ec691da2b56b">   
 
 # 카페 현황 예측 4개의 모델
 ## 좌석 점유율 예측 모델
