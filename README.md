@@ -112,14 +112,24 @@ $ sudo apt-get install python3-pip
 $ sudo pip3 install -r requirements.txt
 ```
 
+## 실행
+```shell
+```
+
 # 카페 현황 예측 4개의 모델
 ## 좌석 점유율 예측 모델
+![카페 A 좌석 점유율 예측 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/9a53d235-49db-42cc-b318-4cd1ce3c7691)
+![카페 A 좌석 점유율 예측 그래프 (1)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/742e677a-9059-4b71-a1ed-fef94e26a0a9)
+
 
 ## 고객층 예측 모델
+![카페 A 남성 비율 예측 그래프 (1)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/3e97b504-9ff4-4549-87e1-aee6b22f2b65)
+![카페 A 남성 비율 예측 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/84e68556-ebfb-43f4-96bf-8b6a58ec4e9d)
 
 ## 행동 패턴 예측 모델
+![카페 A 행동 실제 그래프_](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/6192db92-0370-48a2-b120-7d10e10d5ed3)
+![카페 A 행동 예측 그래프_ (2)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/5d010faa-0a3a-49eb-9766-a8259c4e5901)
 
-## 메뉴/매출 예측 모델
-
-
-
+## 메뉴 예측 모델
+![카페 A 메뉴 추론 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/70ae8883-86bd-4a8b-bf19-bb4669ba0765)
+![카페 A 메뉴 추론 그래프_](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/508792bb-9779-4206-b5dc-877a79a1c7d6)
