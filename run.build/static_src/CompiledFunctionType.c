@@ -1,1 +1,0 @@
-/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/static_src/CompiledFunctionType.c
