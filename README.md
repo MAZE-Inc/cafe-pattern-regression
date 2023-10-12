@@ -120,16 +120,17 @@ $ sudo pip3 install -r requirements.txt
 ```
 - 아래 모든 모델은 특정 카페 A에 대한 추론입니다.
 ### 메뉴 추론
-<img width="450" alt="스크린샷 2023-08-31 오후 10 09 15" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/2df2fa63-f1b2-4e26-bfe5-26462391e90d">
+<img src="./images/메뉴 추론 예시.png" width="450">
 
 ### 성별 추론
-<img width="450" alt="스크린샷 2023-08-31 오후 10 08 30" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/5bccdb7e-2078-4ba7-ab4d-0d1c1aa95792">
+<img src="./images/성별 추론 예시.png" width="450">
 
 ### 좌석 점유율 추론
-<img width="450" alt="스크린샷 2023-08-31 오후 10 07 36" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/ddbd43dc-9c34-482f-b976-8be7ec338efa">
+<img src="./images/좌석 점유율 추론 예시.png" width="450">
 
 ### 행동 추론
-<img width="450" alt="스크린샷 2023-08-31 오후 10 07 13" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/c6aeb3fa-0c4d-4c8d-8d49-ec691da2b56b">   
+<img src="./images/행동 추론 예시.png" width="450">
+ 
 
 # 카페 현황 예측 4개의 모델
 ## 모델 설명
@@ -137,28 +138,29 @@ $ sudo pip3 install -r requirements.txt
 <br />
 모델 개념도는 아래의 그림과 같습니다. 
 <br />
-<img width="343" alt="스크린샷 2023-08-31 오후 10 27 23" src="https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/cb163475-2b51-471e-a2f1-2586d10d7b47"> <br />  
+<img src="./images/부스팅 모델 개념도.png" width="450">
+<br />  
 y=m1(x)+error(x) 모델 m1이 x에 대해서 제대로 예측할 확률이 y라고 하고, 이 정확도를 높이려면
 error(x)를 작게 하는 모델을 적용하면 되는데, error(x) = m2(x) + error2(x)라고 볼 수 있습니다. 마찬가지로 error(x)를 작게 하려면 error2(x)를 작게 하면 되는데, 그러기 위해서는 여기에 다른 모델을 적용하면 됩니다. 즉 error2(x) = m3(x)+error3(x)가 되고, 이를 식으로 합치면
 y= m1(x)+m2(x)+m3(x)+error3(x)
 가 됩니다. 이렇게 하면 m1,m2,m3 모델의 가중치가 같기 때문에, 서로 모델이 간섭을 하여, 좋은 결과를 내기 어렵다. 그래서, 각 모델에 가중치를 반영한다. 식은 y = W1m1(x)+W2m2(x)+W3m3(x)+error3(x)와 같은 식이 된다.
 ## 좌석 점유율 예측 모델
 - 아래 그림은 자사의 좌석 점유율 예측 모델로 요일별, 시간별 예측을 시각화한 그림입니다.
-![카페 A 좌석 점유율 예측 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/9a53d235-49db-42cc-b318-4cd1ce3c7691)
-![카페 A 좌석 점유율 예측 그래프 (1)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/742e677a-9059-4b71-a1ed-fef94e26a0a9)
-
+<img src="./images/카페 A 좌석 점유율 예측 그래프.png" width="800">
+<img src="./images/카페 A 좌석 점유율 예측 그래프2.png" width="800">
 
 ## 고객층 예측 모델
 - 아래 그림은 자사의 고객층 예측 모델로 요일별, 시간별 예측을 시각화한 그림입니다.
-![카페 A 남성 비율 예측 그래프 (1)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/3e97b504-9ff4-4549-87e1-aee6b22f2b65)
-![카페 A 남성 비율 예측 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/84e68556-ebfb-43f4-96bf-8b6a58ec4e9d)
+<img src="./images/카페 A 남성 비율 예측 그래프.png" width="800">
+<img src="./images/카페 A 남성 비율 예측 그래프2.png" width="800">
 
 ## 행동 패턴 예측 모델
 - 아래 그림은 자사의 행동 패턴 예측 모델로 요일별, 시간별 예측을 시각화한 그림입니다.
-![카페 A 행동 실제 그래프_](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/6192db92-0370-48a2-b120-7d10e10d5ed3)
-![카페 A 행동 예측 그래프_ (2)](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/5d010faa-0a3a-49eb-9766-a8259c4e5901)
+<img src="./images/카페 A 행동 예측 그래프.png" width="800">
+<img src="./images/카페 A 행동 예측 그래프2.png" width="800">
 
 ## 메뉴 예측 모델
 - 아래 그림은 자사의 메뉴 예측 모델로 요일별, 시간별 예측을 시각화한 그림입니다.
-![카페 A 메뉴 추론 그래프](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/70ae8883-86bd-4a8b-bf19-bb4669ba0765)
-![카페 A 메뉴 추론 그래프_](https://github.com/MAZE-Inc/cafe-pattern-regression/assets/129044938/508792bb-9779-4206-b5dc-877a79a1c7d6)
+<img src="./images/카페 A 메뉴 추론 그래프.jpg" width="800">
+<img src="./images/카페 A 메뉴 추론 그래프2.jpg" width="800">
+
