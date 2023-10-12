@@ -1,0 +1,71 @@
+[2023-08-31T22:59:57.070209 64493] === CCACHE master.971f1183 STARTED =========================================
+[2023-08-31T22:59:57.070209 64493] Config: (default) absolute_paths_in_stderr = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) base_dir = 
+[2023-08-31T22:59:57.070209 64493] Config: (environment) cache_dir = /Users/kyungmin/Library/Caches/Nuitka/ccache
+[2023-08-31T22:59:57.070209 64493] Config: (default) compiler = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) compiler_check = mtime
+[2023-08-31T22:59:57.070209 64493] Config: (default) compiler_type = auto
+[2023-08-31T22:59:57.070209 64493] Config: (default) compression = true
+[2023-08-31T22:59:57.070209 64493] Config: (default) compression_level = 0
+[2023-08-31T22:59:57.070209 64493] Config: (default) cpp_extension = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) debug = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) debug_dir = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) depend_mode = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) direct_mode = true
+[2023-08-31T22:59:57.070209 64493] Config: (default) disable = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) extra_files_to_hash = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) file_clone = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) hard_link = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) hash_dir = true
+[2023-08-31T22:59:57.070209 64493] Config: (default) ignore_headers_in_manifest = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) ignore_options = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) inode_cache = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) keep_comments_cpp = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) limit_multiple = 0.8
+[2023-08-31T22:59:57.070209 64493] Config: (environment) log_file = /Users/kyungmin/ai_lab/cafe-pattern-regression/run.onefile-build/ccache-64491.txt
+[2023-08-31T22:59:57.070209 64493] Config: (default) max_files = 0
+[2023-08-31T22:59:57.070209 64493] Config: (default) max_size = 5.0G
+[2023-08-31T22:59:57.070209 64493] Config: (default) path = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) pch_external_checksum = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) prefix_command = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) prefix_command_cpp = 
+[2023-08-31T22:59:57.070209 64493] Config: (default) read_only = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) read_only_direct = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) recache = false
+[2023-08-31T22:59:57.070209 64493] Config: (default) run_second_cpp = true
+[2023-08-31T22:59:57.070209 64493] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-08-31T22:59:57.070209 64493] Config: (default) stats = true
+[2023-08-31T22:59:57.070209 64493] Config: (default) temporary_dir = /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp
+[2023-08-31T22:59:57.070209 64493] Config: (default) umask = 
+[2023-08-31T22:59:57.070636 64493] Command line: /Users/kyungmin/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/OnefileBootstrap.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -D_NUITKA_PAYLOAD_FROM_MACOS_SECTION -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -I. -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/include -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/static_src -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/inline_copy/zstd static_src/OnefileBootstrap.c
+[2023-08-31T22:59:57.070654 64493] Hostname: MAZE-tgss9707.local
+[2023-08-31T22:59:57.070663 64493] Working directory: /Users/kyungmin/ai_lab/cafe-pattern-regression/run.onefile-build
+[2023-08-31T22:59:57.070674 64493] Compiler type: clang
+[2023-08-31T22:59:57.071078 64493] Source file: static_src/OnefileBootstrap.c
+[2023-08-31T22:59:57.071098 64493] Object file: static_src/OnefileBootstrap.o
+[2023-08-31T22:59:57.071416 64493] Trying direct lookup
+[2023-08-31T22:59:57.072089 64493] No manifest with name 8fbe48roi63pjfu3tm5i7ju6jivg3fanm in the cache
+[2023-08-31T22:59:57.072740 64493] Running preprocessor
+[2023-08-31T22:59:57.072758 64493] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -D_NUITKA_PAYLOAD_FROM_MACOS_SECTION -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -I. -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/include -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/static_src -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/inline_copy/zstd -E static_src/OnefileBootstrap.c
+[2023-08-31T22:59:57.220228 64493] Got result name from preprocessor
+[2023-08-31T22:59:57.220595 64493] No result with name 0af15vkdpcaei6s5m6racn03ahal2i9l4 in the cache
+[2023-08-31T22:59:57.220626 64493] Running real compiler
+[2023-08-31T22:59:57.220867 64493] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -D_NUITKA_PAYLOAD_FROM_MACOS_SECTION -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -I. -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/include -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/static_src -I/Users/kyungmin/opt/anaconda3/envs/iot/lib/python3.9/site-packages/nuitka/build/inline_copy/zstd -c -fcolor-diagnostics -o static_src/OnefileBootstrap.o static_src/OnefileBootstrap.c
+[2023-08-31T22:59:59.043772 64493] Using default compression level 1
+[2023-08-31T22:59:59.044224 64493] Storing result static_src/OnefileBootstrap.o
+[2023-08-31T22:59:59.044261 64493] Storing embedded file #0 .o (235008 bytes) from static_src/OnefileBootstrap.o
+[2023-08-31T22:59:59.046443 64493] Stored in cache: /Users/kyungmin/Library/Caches/Nuitka/ccache/0/a/f15vkdpcaei6s5m6racn03ahal2i9l4R
+[2023-08-31T22:59:59.046528 64493] Adding result name to /Users/kyungmin/Library/Caches/Nuitka/ccache/8/f/be48roi63pjfu3tm5i7ju6jivg3fanmM
+[2023-08-31T22:59:59.048420 64493] Using default compression level 1
+[2023-08-31T22:59:59.049250 64493] Result: cache miss
+[2023-08-31T22:59:59.049398 64493] Acquired lock /Users/kyungmin/Library/Caches/Nuitka/ccache/8/stats.lock
+[2023-08-31T22:59:59.050196 64493] Releasing lock /Users/kyungmin/Library/Caches/Nuitka/ccache/8/stats.lock
+[2023-08-31T22:59:59.050243 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/8/stats.lock
+[2023-08-31T22:59:59.050418 64493] Acquired lock /Users/kyungmin/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-08-31T22:59:59.051111 64493] Releasing lock /Users/kyungmin/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-08-31T22:59:59.051153 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/0/stats.lock
+[2023-08-31T22:59:59.051197 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.7mFWHr
+[2023-08-31T22:59:59.051228 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.dZ6OzK
+[2023-08-31T22:59:59.051264 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.zSp4DY
+[2023-08-31T22:59:59.051320 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.9MkS3a.i
+[2023-08-31T22:59:59.051399 64493] Unlink /Users/kyungmin/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.9MkS3a
