@@ -162,6 +162,6 @@ y= m1(x)+m2(x)+m3(x)+error3(x)
 
 ## 메뉴 예측 모델
 - 아래 그림은 자사의 메뉴 예측 모델로 요일별, 시간별 예측을 시각화한 그림입니다.
-<img src="./images/카페 A 메뉴 추론 그래프.jpg" width="800">
-<img src="./images/카페 A 메뉴 추론 그래프2.jpg" width="800">
+<img src="./images/카페 A 메뉴 추론 그래프.png" width="800">
+<img src="./images/카페 A 메뉴 추론 그래프2.png" width="800">
 
